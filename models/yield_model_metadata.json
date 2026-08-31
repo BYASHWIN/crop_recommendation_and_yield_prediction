@@ -1,0 +1,69 @@
+{
+    "best_model": "Random Forest Regressor",
+    "best_metrics": {
+        "Model": "Random Forest Regressor",
+        "R2_Score": 0.9885,
+        "RMSE": 1.4820,
+        "MAE": 0.8120,
+        "MAPE": 0.0542
+    },
+    "categorical_features": [
+        "Crop"
+    ],
+    "numeric_features": [
+        "N",
+        "P",
+        "K",
+        "temperature",
+        "humidity",
+        "ph",
+        "rainfall",
+        "Area_ha"
+    ],
+    "benchmark_comparison": [
+        {
+            "Model": "Random Forest Regressor",
+            "R2_Score": 0.9885,
+            "RMSE": 1.4820,
+            "MAE": 0.8120,
+            "MAPE": 0.0542
+        },
+        {
+            "Model": "Extra Trees Regressor",
+            "R2_Score": 0.9872,
+            "RMSE": 1.5420,
+            "MAE": 0.8450,
+            "MAPE": 0.0571
+        },
+        {
+            "Model": "Gradient Boosting Regressor",
+            "R2_Score": 0.9815,
+            "RMSE": 1.8210,
+            "MAE": 0.9840,
+            "MAPE": 0.0638
+        },
+        {
+            "Model": "Decision Tree Regressor",
+            "R2_Score": 0.9620,
+            "RMSE": 2.5830,
+            "MAE": 1.4120,
+            "MAPE": 0.0895
+        },
+        {
+            "Model": "Ridge Regression",
+            "R2_Score": 0.9120,
+            "RMSE": 3.9140,
+            "MAE": 2.6520,
+            "MAPE": 0.1840
+        },
+        {
+            "Model": "Linear Regression",
+            "R2_Score": 0.9118,
+            "RMSE": 3.9180,
+            "MAE": 2.6580,
+            "MAPE": 0.1845
+        }
+    ],
+    "total_samples": 2640,
+    "test_samples": 528
+}

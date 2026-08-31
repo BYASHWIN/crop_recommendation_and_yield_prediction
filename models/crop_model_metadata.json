@@ -1,0 +1,120 @@
+{
+    "best_model": "Random Forest",
+    "best_metrics": {
+        "Model": "Random Forest",
+        "Accuracy": 0.9955,
+        "Precision": 0.9958,
+        "Recall": 0.9955,
+        "F1_Score": 0.9955
+    },
+    "is_scaled": false,
+    "feature_names": [
+        "N",
+        "P",
+        "K",
+        "temperature",
+        "humidity",
+        "ph",
+        "rainfall"
+    ],
+    "target_classes": [
+        "apple",
+        "banana",
+        "blackgram",
+        "chickpea",
+        "coconut",
+        "coffee",
+        "cotton",
+        "grapes",
+        "jute",
+        "kidneybeans",
+        "lentil",
+        "maize",
+        "mango",
+        "mothbeans",
+        "mungbean",
+        "muskmelon",
+        "orange",
+        "papaya",
+        "pigeonpeas",
+        "pomegranate",
+        "rice",
+        "watermelon"
+    ],
+    "benchmark_comparison": [
+        {
+            "Model": "Random Forest",
+            "Accuracy": 0.9955,
+            "Precision": 0.9958,
+            "Recall": 0.9955,
+            "F1_Score": 0.9955
+        },
+        {
+            "Model": "Gradient Boosting",
+            "Accuracy": 0.9886,
+            "Precision": 0.9892,
+            "Recall": 0.9886,
+            "F1_Score": 0.9886
+        },
+        {
+            "Model": "Gaussian Naive Bayes",
+            "Accuracy": 0.9932,
+            "Precision": 0.9936,
+            "Recall": 0.9932,
+            "F1_Score": 0.9932
+        },
+        {
+            "Model": "Support Vector Machine (SVM)",
+            "Accuracy": 0.9795,
+            "Precision": 0.9810,
+            "Recall": 0.9795,
+            "F1_Score": 0.9795
+        },
+        {
+            "Model": "K-Nearest Neighbors (KNN)",
+            "Accuracy": 0.9750,
+            "Precision": 0.9765,
+            "Recall": 0.9750,
+            "F1_Score": 0.9750
+        },
+        {
+            "Model": "Decision Tree",
+            "Accuracy": 0.9636,
+            "Precision": 0.9650,
+            "Recall": 0.9636,
+            "F1_Score": 0.9636
+        }
+    ],
+    "feature_importances": [
+        {
+            "Feature": "rainfall",
+            "Importance": 0.228
+        },
+        {
+            "Feature": "humidity",
+            "Importance": 0.214
+        },
+        {
+            "Feature": "K",
+            "Importance": 0.185
+        },
+        {
+            "Feature": "P",
+            "Importance": 0.142
+        },
+        {
+            "Feature": "N",
+            "Importance": 0.118
+        },
+        {
+            "Feature": "temperature",
+            "Importance": 0.068
+        },
+        {
+            "Feature": "ph",
+            "Importance": 0.045
+        }
+    ],
+    "total_samples": 2200,
+    "test_samples": 440
+}
